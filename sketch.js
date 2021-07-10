@@ -27,10 +27,10 @@ function setup() {
  
    for(var i=0; i<40;i++){
      cars=new Car(2);
-     carGroup1.add(car.spt);
+     carGroup1.add(cars.spt);
    }
    for(var i=0; i<40; i++){
-    log= new log(-2);
+    log= new Log(-2);
     logGroup1.add(log.spt);
    }
    for(i=1; i<logGroup1.length;i++){
